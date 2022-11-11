@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900;1000&display=swap');
+body{
+    background-color: #ffb40c;
+    font-family: 'Mulish', sans-serif;
+}
+
+.containerNavSup{
+    padding-left: 3vw;
+    display:flex;
+    align-items: center;
+    justify-content: left;
+
+}
+.divFormContainer{
+    padding:5vw;
+}
+.containerNavInf{
+    padding-left: 3vw;
+}
+.navInfText{
+    font-size: small;
+}
+
+/* Personalización pantalla de mas de 600px de ancho */
+@media only screen and (min-width: 600px) {
+    .divFormContainer {
+        display:flex;
+        justify-content: center;
+    }
+    .formAddProduct{
+        width: 65vw;
+    }
+  }
+
+.productsListContainer{
+    display:flex;
+    height: 10vh;
+    margin: 2vh;
+}
+
+.productsListContainer img{
+    object-fit: contain;
+    height: 100%;
+    border: 2px solid #732178;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.separateLine{
+    background-color: #732178;
+    height: 1px;
+    width: 95vw;
+}
+.separateLineContainer{
+    display:flex;
+    justify-content: center;
+}
+.detailsListContainer *{
+    margin-left:10vw;
+    color:#732178;
+    font-size: 1.3em;
+}
+
+.nothingListContainer{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.nothingListContainer p{
+    font-weight: 700;
+    color:#732178;
+    font-size: 1.3em;
+}
+
+.nothingListContainer img{
+    padding-top: 10vh;
+    height:35vh;
+    width: 35vh;
+}
+
